@@ -13,7 +13,7 @@ A simple lightweight plugin for creating watermark on text input controls.
 
 Include script after the jQuery library (unless you are packaging scripts somehow else):
 
-<pre><script src="/path/to/jquery.watermark.js"></script></pre>
+<pre>&lt;script <span class=SpellE>src</span>=&quot;/path/to/jquery.watermark.js&quot;&gt;&lt;/script&gt;</pre>
 
 <h1>Usage</h1>
 
