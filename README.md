@@ -12,7 +12,7 @@ a.	This will stop confusions during validations. If the text box is blank then y
 <b>Installation</b>
 
 Include script after the jQuery library (unless you are packaging scripts somehow else):
-&lt;script src="/path/to/jquery.watermark.js"&gt;&lt/script&gt;
+&lt;script src="/path/to/jquery.watermark.js"&gt;&lt;/script&gt;
 
 Usage
 Create watermark with default options:
