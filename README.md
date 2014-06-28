@@ -20,7 +20,8 @@ Include script after the jQuery library (unless you are packaging scripts someho
 <b>Please make sure that you use “id” for the control you want to watermark</b>
 
 Create watermark with default options:<br/>
-$(“#controlID”).watermark();
+<b>$(“#controlID”).watermark();</b>
+<br/>
 <br/>
 Create watermark with custom options:<br/>
-$(“#controlID”).watermark({ color: '#999', bgcolor: 'red', text: 'From Date' });
+<b>$(“#controlID”).watermark({ color: '#999', bgcolor: 'red', text: 'From Date' });</b>
