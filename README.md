@@ -11,12 +11,12 @@ Salient Feature:<br/>
 <b>Installation</b>
 
 Include script after the jQuery library (unless you are packaging scripts somehow else):<br/>
-<font size='10pt'> &lt;script src="/path/to/jquery.watermark.js"&gt;&lt;/script&gt;</font>
+<font size='9pt' color='maroon'> &lt;script src="/path/to/jquery.watermark.js"&gt;&lt;/script&gt;</font>
 
 <b>Usage</b>
 
-Create watermark with default options:
+Create watermark with default options:<br/>
 $ (“#controlID”).watermark();
 
-Create watermark with custom options:
+Create watermark with custom options:<br/>
 $ (“#controlID”).watermark({ color: '#999', bgcolor: 'red', text: 'From Date' });
