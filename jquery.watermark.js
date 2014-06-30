@@ -18,7 +18,8 @@
             var ipHTML = "<input type='text' onclick=" + "\"" + "$('#" + elementID + "').trigger('focus');" + "\"" + " id='" + ipID + "' style='position:absolute;top:" + top + "px;left:" + left + "px; height:" + height + "px; width:" + width + "px;border: 0px black solid;background-color:" + args.bgcolor + ";color:" + args.color + ";' value='" + args.text + "'></input>"
 
             //set initial value to watermark text
-            $('body').append(ipHTML);
+            if(element.val().length == 0)
+		$('body').append(ipHTML);
 
             //assign functions to events
             //on blur
